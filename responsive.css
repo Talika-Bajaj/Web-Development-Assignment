@@ -1,0 +1,135 @@
+@media screen and (width>600px) {
+    .main-heading {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-heading h1 {
+        font-size: 28px;
+    }
+
+    .submit {
+        height: 36px;
+    }
+}
+
+@media screen and (width<=800px) {
+    .nav-menu {
+        position: absolute;
+        left: -100%;
+        top: 70px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: #F0F0F0;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+}
+
+@media screen and (width>=800px) {
+
+    nav {
+        padding: 20px 60px;
+        flex-direction: row;
+    }
+
+    #logo {
+        height: 100%;
+    }
+
+    .hamburgerMenu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .left {
+        width: 132px;
+    }
+
+    .right {
+        width: 95px;
+    }
+
+    .main-content {
+        width: 55vw;
+    }
+
+    .explore {
+        width: 100%;
+    }
+
+    .col2 {
+        height: 580px;
+    }
+
+    .sub-threads {
+        grid-template-columns: 199px 199px;
+    }
+
+    .sub-thread {
+        width: 199px;
+    }
+
+    #thread {
+        width: 200px;
+    }
+
+
+}
+
+@media screen and (width> 1060px) {
+    .main-content {
+        width: 68vw;
+    }
+
+    .col {
+        width: 480px;
+        margin: auto;
+    }
+
+    .thread {
+        width: 478px;
+    }
+
+
+    .chapter {
+        width: 434px;
+    }
+
+    #title-div,
+    .content-options {
+        width: 422px;
+    }
+
+    .intro,
+    .threadA {
+        width: 434px;
+    }
+
+    .eg-1 {
+        width: 394px;
+    }
+}
+
+
+@media screen and (width>=1349px) {
+    .main-content {
+        width: 1025px;
+    }
+
+    .columns {
+        grid-template-columns: 480px 480px;
+    }
+}
