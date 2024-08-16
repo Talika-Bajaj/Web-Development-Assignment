@@ -1,13 +1,13 @@
 @media screen and (width>600px) {
     .main-heading {
-        width: 100%;
+        width: 70%;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .main-heading h1 {
+    /* .main-heading h1 {
         font-size: 28px;
-    }
+    } */
 
     .submit {
         height: 36px;
@@ -34,6 +34,7 @@
 
     .nav-menu.active {
         left: 0;
+        z-index: 500;
     }
 
 }
@@ -64,6 +65,14 @@
 
     .main-content {
         width: 55vw;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    .main-heading h1 {
+        font-size: 28px;
     }
 
     .explore {

@@ -63,6 +63,7 @@ nav {
 
 .hamburgerMenu {
     display: block;
+    cursor: pointer;
 }
 
 
@@ -208,7 +209,7 @@ main {
     padding: 35px 0 115px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 70px;
     width: 90vw;
 }
 
@@ -220,7 +221,7 @@ main {
     gap: 40px;
     font-family: "Poppins", sans-serif;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .main-heading h1 {
@@ -324,7 +325,7 @@ main {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
     /* width: 453px; */
     width: 100%;
-    /* height: 83px; */
+    /* height: auto; */
     margin: auto;
     line-height: 22px;
     letter-spacing: 0.02em;
@@ -471,7 +472,7 @@ main {
     display: grid;
     /* width: 479px; */
     grid-template-columns: 100%;
-    border: 1px solid #D1CECE;
+    /* border: 1px solid #D1CECE; */
     gap: 25px;
     border-radius: 0px 0px 15px 15px;
     height: 399px;
@@ -490,19 +491,20 @@ main {
 #title {
     display: grid;
     grid-template-columns: 100%;
-    gap: 12px;
+    gap: 15px;
 }
 
 .title {
     font-weight: 600;
 }
 
-#title-div {
+#title-input {
     background: #FCFBFB;
     box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     height: 43px;
     border: none;
+    padding: 0 12px;
     width: 100%;
 }
 
@@ -555,11 +557,15 @@ main {
     height: fit-content;
 }
 
-#content-div {
+#content-input {
     height: 142px;
     background: #FCFBFB;
     box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
     border-radius: 0px;
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    border: none;
 }
 
 .chapter {
@@ -571,6 +577,7 @@ main {
     gap: 20px;
     width: 100%;
     margin: auto;
+    height: 428px;
 }
 
 .intro {
@@ -593,6 +600,7 @@ main {
 .chapter small {
     font-weight: 600;
     padding: 0 15px;
+    margin-top: 18px;
 }
 
 .see-more {
