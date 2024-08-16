@@ -23,6 +23,10 @@ nav {
     gap: 31px;
 }
 
+#logo {
+    cursor: pointer;
+    height: 30px;
+}
 
 .nav-menu {
     display: flex;
@@ -120,6 +124,7 @@ main {
     color: #fff;
     align-items: center;
     min-height: 50px;
+    cursor: pointer;
 }
 
 .heading {
@@ -149,12 +154,14 @@ main {
     position: relative;
     width: fit-content;
     margin: 30px auto 0;
+    cursor: pointer;
 }
 
 .one {
     position: absolute;
     left: 28px;
     bottom: 28px;
+    cursor: pointer;
 }
 
 .right {
@@ -238,6 +245,7 @@ main {
     /* Rectangle 1 */
     border-radius: 10px;
     border: none;
+    cursor: pointer;
     padding: 5px 19px;
 
 }
@@ -318,6 +326,7 @@ main {
     color: black;
     padding: 1px 9px 0px;
     font-family: "Poly", serif;
+    cursor: pointer;
 }
 
 .desc {
