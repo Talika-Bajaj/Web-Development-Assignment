@@ -84,11 +84,12 @@ function renderData(data) {
     });
 }
 const details = document.getElementsByClassName('detail');
+const detailsTag = document.getElementsByTagName('details');
 const arrows = document.getElementsByClassName('arrow');
 
 Array.from(details).forEach((detail,index) => {
     detail.addEventListener('click', ()=> {
-        if (detail.open === false) {
+        if (detailsTag[index].open === false) {
             arrows[index].src = 'assets/up-arrow.png'
         } else {
             arrows[index].src = 'assets/down-arrow.png'

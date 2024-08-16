@@ -5,12 +5,13 @@
         justify-content: space-between;
     }
 
-    /* .main-heading h1 {
-        font-size: 28px;
-    } */
-
     .submit {
         height: 36px;
+    }
+    
+    .columns {
+        grid-template-columns: 480px;
+        margin: auto;
     }
 }
 
@@ -110,11 +111,6 @@
 
     .thread {
         width: 478px;
-    }
-
-
-    .chapter {
-        width: 434px;
     }
 
     #title-div,
